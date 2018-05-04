@@ -1,0 +1,31 @@
+:host /deep/ {
+  .sub-title {
+    line-height: 30px;
+    font-size: 28px;
+  }
+  .show-hover-elem {
+    transition: all .3s;
+  }
+  .main-row .underline-text {
+    &.expanded {
+      text-decoration: underline;
+    }
+    color: #000 !important;
+  }
+  .black-text {
+    color: #000 !important;
+  }
+  .cursor-default {
+    cursor: default;
+  }
+  .col-content-wrapper {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .col-wrap-multiline {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+}
